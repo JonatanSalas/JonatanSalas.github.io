@@ -25,7 +25,7 @@ const styles = {
 
 class Layout extends React.Component {
     static defaultProps = {
-        title: 'Jonatan E. Salas',
+        title: "Jonatan E. Salas",
         menu: [
             {
                 href: "/#interests",
@@ -52,8 +52,13 @@ class Layout extends React.Component {
         return (
             <React.Fragment>
                 <Toolbar title={title}>
-                    {menu.map(item => (
-                        <Link className={classes.link} to={item.href}>
+                    {menu.map((item, idx) => (
+                        <Link
+                            id={idx}
+                            key={idx}
+                            to={item.href}
+                            className={classes.link}
+                        >
                             <Button className={classes.button} color="inherit">
                                 {item.text}
                             </Button>

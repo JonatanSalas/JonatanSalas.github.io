@@ -3,7 +3,7 @@ import AppBar from "material-ui/AppBar";
 import Link from "react-router-dom/Link";
 import Toolbar from "material-ui/Toolbar";
 import Typography from "material-ui/Typography";
-import { withStyles } from "material-ui/styles";
+import withStyles from "material-ui/styles/withStyles";
 
 const styles = {
     root: {
