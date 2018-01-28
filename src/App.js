@@ -2,15 +2,25 @@ import React from "react";
 
 import Route from 'react-router-dom/Route';
 import Switch from 'react-router-dom/Switch';
-import BrowserRouter from 'react-router-dom/BrowserRouter';
+import HashRouter from 'react-router-dom/HashRouter';
 
 import Index from "./pages/Index";
 import Layout from "./components/Layout";
 
 export default class App extends React.Component {
+    state = {
+        language: 'es'
+    };
+
+    componentDidMount() {
+        this.setState({
+            language: navigator.language.includes('es') ? 'es' : 'en'
+        });
+    }
+
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter>
                 <Switch>
                     <Route
                         exact
@@ -23,7 +33,7 @@ export default class App extends React.Component {
                     />
                     <Route exact path="/blog" render={props => <Layout />} />
                 </Switch>
-            </BrowserRouter>
+            </HashRouter>
         );
     }
 }
