@@ -13,10 +13,7 @@ const styles = {
         }
     },
     root: {
-        display: "flex",
-        flexWrap: "wrap",
-        justifyContent: "space-around",
-        overflow: "hidden"
+        padding: 24
     },
     link: {
         color: "#FFFFFF"
@@ -65,7 +62,7 @@ class Layout extends React.Component {
                         </Link>
                     ))}
                 </Toolbar>
-                {children}
+                <main className={classes.root}>{children}</main>
             </React.Fragment>
         );
     }

@@ -6,12 +6,7 @@ import Typography from "material-ui/Typography/Typography";
 export default class Index extends React.Component {
     render() {
         return (
-            <Grid
-                direction="column"
-                spacing={0}
-                container
-                style={{ padding: 24 }}
-            >
+            <Grid direction="column" spacing={0} container>
                 <Grid item>
                     <Typography align="center" color="default" type="display1">
                         Welcome!
