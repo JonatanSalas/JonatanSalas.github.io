@@ -1,0 +1,1323 @@
+[
+    {
+        "id": "237ce2762f6c",
+        "versionId": "5e9efc1e42ae",
+        "creatorId": "c087cd1a9365",
+        "homeCollectionId": "",
+        "title":
+            "Advanced React Patterns 2 — Let’s talk about Provider",
+        "detectedLanguage": "en",
+        "latestVersion": "5e9efc1e42ae",
+        "latestPublishedVersion": "5e9efc1e42ae",
+        "hasUnpublishedEdits": false,
+        "latestRev": 313,
+        "createdAt": 1512823380729,
+        "updatedAt": 1512843832258,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1512826778989,
+        "latestPublishedAt": 1512843831601,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle":
+                "The Provider pattern is used mostly to share data across the tree descendant nodes in a React application.",
+            "postDisplay": { "coverless": true }
+        },
+        "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*tPx7eWA0Mz7-j7c35an7DQ.png",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 900,
+                "originalHeight": 273,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 202,
+            "imageCount": 1,
+            "readingTime": 0.9622641509433962,
+            "subtitle":
+                "The Provider pattern is used mostly to share data across the tree descendant nodes in a React application.",
+            "usersBySocialRecommends": [],
+            "recommends": 0,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "react",
+                    "name": "React",
+                    "postCount": 12617,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 18065,
+                        "postCount": 12617,
+                        "coverImage": {
+                            "id": "1*_wZhhTstI_DCebB2fK2c5g.png",
+                            "originalWidth": 1099,
+                            "originalHeight": 478,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "react-advanced-patterns",
+                    "name": "React Advanced Patterns",
+                    "postCount": 1,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 0,
+                        "postCount": 1,
+                        "coverImage": {
+                            "id": "1*tPx7eWA0Mz7-j7c35an7DQ.png",
+                            "originalWidth": 900,
+                            "originalHeight": 273
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "design-patterns",
+                    "name": "Design Patterns",
+                    "postCount": 1349,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 1032,
+                        "postCount": 1349,
+                        "coverImage": {
+                            "id": "0*hzkaz2KPCocZx8mO.jpg",
+                            "originalWidth": 631,
+                            "originalHeight": 624,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "patterns",
+                    "name": "Patterns",
+                    "postCount": 542,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 108,
+                        "postCount": 542,
+                        "coverImage": {
+                            "id": "1*eOJ2WyLc_gYoo8to4CC8yQ.jpeg",
+                            "originalWidth": 480,
+                            "originalHeight": 360
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+                "entries": [
+                    {
+                        "url":
+                            "https://reactjs.org/docs/context.html",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url":
+                            "https://medium.com/@jonatan_salas/advanced-react-patterns-lets-talk-about-render-props-function-as-child-and-hocs-c0cc4b5d6797",
+                        "alts": [
+                            {
+                                "type": 2,
+                                "url": "medium://p/c0cc4b5d6797"
+                            },
+                            {
+                                "type": 3,
+                                "url": "medium://p/c0cc4b5d6797"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url":
+                            "https://github.com/reactjs/rfcs/pull/2",
+                        "alts": [],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1512843835794
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 0,
+            "sectionCount": 1,
+            "readingList": 0
+        },
+        "coverless": true,
+        "slug":
+            "advanced-react-patterns-2-lets-talk-about-provider",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": true,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug":
+            "advanced-react-patterns-2-lets-talk-about-provider-237ce2762f6c",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "5f09",
+                        "type": 4,
+                        "text": "",
+                        "markups": [],
+                        "layout": 9,
+                        "metadata": {
+                            "id": "1*tPx7eWA0Mz7-j7c35an7DQ.png",
+                            "originalWidth": 900,
+                            "originalHeight": 273
+                        }
+                    },
+                    {
+                        "name": "61ab",
+                        "type": 3,
+                        "text":
+                            "Advanced React Patterns 2 — Let’s talk about Provider",
+                        "markups": [],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [{ "startIndex": 0 }]
+            },
+            "isFullContent": false
+        },
+        "license": 8,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": true,
+        "isSponsored": false,
+        "isRequestToPubDisabled": false,
+        "notifyFacebook": true,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": false,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isNsfw": false,
+        "isEligibleForRevenue": false,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 0,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "type": "Post"
+    },
+    {
+        "id": "c0cc4b5d6797",
+        "versionId": "944be10a7f06",
+        "creatorId": "c087cd1a9365",
+        "homeCollectionId": "",
+        "title":
+            "Advanced React Patterns 1— Let’s talk about Render Props, Function as Child and HOCs",
+        "detectedLanguage": "en",
+        "latestVersion": "944be10a7f06",
+        "latestPublishedVersion": "944be10a7f06",
+        "hasUnpublishedEdits": false,
+        "latestRev": 956,
+        "createdAt": 1512763372069,
+        "updatedAt": 1517147104281,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1512769654215,
+        "latestPublishedAt": 1512823270925,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle":
+                "There’s three patterns in React that are meant to be used in case that you want to decouple generic logic, so, this can be shared with…",
+            "postDisplay": { "coverless": true }
+        },
+        "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*tPx7eWA0Mz7-j7c35an7DQ.png",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 900,
+                "originalHeight": 273,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 640,
+            "imageCount": 1,
+            "readingTime": 2.6150943396226416,
+            "subtitle":
+                "There’s three patterns in React that are meant to be used in case that you want to decouple generic logic, so, this can be shared with…",
+            "usersBySocialRecommends": [],
+            "recommends": 3,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "react",
+                    "name": "React",
+                    "postCount": 12617,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 18065,
+                        "postCount": 12617,
+                        "coverImage": {
+                            "id": "1*_wZhhTstI_DCebB2fK2c5g.png",
+                            "originalWidth": 1099,
+                            "originalHeight": 478,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "react-advanced-patterns",
+                    "name": "React Advanced Patterns",
+                    "postCount": 1,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 0,
+                        "postCount": 1,
+                        "coverImage": {
+                            "id": "1*tPx7eWA0Mz7-j7c35an7DQ.png",
+                            "originalWidth": 900,
+                            "originalHeight": 273
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "design-patterns",
+                    "name": "Design Patterns",
+                    "postCount": 1349,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 1032,
+                        "postCount": 1349,
+                        "coverImage": {
+                            "id": "0*hzkaz2KPCocZx8mO.jpg",
+                            "originalWidth": 631,
+                            "originalHeight": 624,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "patterns",
+                    "name": "Patterns",
+                    "postCount": 542,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 108,
+                        "postCount": 542,
+                        "coverImage": {
+                            "id": "1*eOJ2WyLc_gYoo8to4CC8yQ.jpeg",
+                            "originalWidth": 480,
+                            "originalHeight": 360
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+                "entries": [
+                    {
+                        "url": "https://reactjs.org/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url":
+                            "https://medium.com/javascript-scene/higher-order-functions-composing-software-5365cf2cbe99",
+                        "alts": [
+                            {
+                                "type": 2,
+                                "url": "medium://p/5365cf2cbe99"
+                            },
+                            {
+                                "type": 3,
+                                "url": "medium://p/5365cf2cbe99"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url":
+                            "https://reactjs.org/docs/context.html",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url":
+                            "https://reactjs.org/docs/higher-order-components.html#static-methods-must-be-copied-over",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url":
+                            "https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750",
+                        "alts": [
+                            {
+                                "type": 2,
+                                "url": "medium://p/94a0d2f9e750"
+                            },
+                            {
+                                "type": 3,
+                                "url": "medium://p/94a0d2f9e750"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url":
+                            "https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0",
+                        "alts": [
+                            {
+                                "type": 2,
+                                "url": "medium://p/7ca2f9a7c7d0"
+                            },
+                            {
+                                "type": 3,
+                                "url": "medium://p/7ca2f9a7c7d0"
+                            }
+                        ],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url":
+                            "https://developer.mozilla.org/es/docs/Web/API/Window/requestAnimationFrame",
+                        "alts": [],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1512823272041
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 18,
+            "sectionCount": 1,
+            "readingList": 0
+        },
+        "coverless": true,
+        "slug":
+            "advanced-react-patterns-lets-talk-about-render-props-function-as-child-and-hocs",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": true,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug":
+            "advanced-react-patterns-lets-talk-about-render-props-function-as-child-and-hocs-c0cc4b5d6797",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "1ffb",
+                        "type": 4,
+                        "text": "",
+                        "markups": [],
+                        "layout": 9,
+                        "metadata": {
+                            "id": "1*tPx7eWA0Mz7-j7c35an7DQ.png",
+                            "originalWidth": 900,
+                            "originalHeight": 273
+                        }
+                    },
+                    {
+                        "name": "ae4b",
+                        "type": 3,
+                        "text":
+                            "Advanced React Patterns 1— Let’s talk about Render Props, Function as Child and HOCs",
+                        "markups": [],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [{ "startIndex": 0 }]
+            },
+            "isFullContent": false
+        },
+        "license": 8,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": true,
+        "isSponsored": false,
+        "isRequestToPubDisabled": false,
+        "notifyFacebook": true,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": false,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isNsfw": false,
+        "isEligibleForRevenue": false,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 0,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "type": "Post"
+    },
+    {
+        "id": "ce4c40568c2a",
+        "versionId": "142fca084a5a",
+        "creatorId": "c087cd1a9365",
+        "homeCollectionId": "",
+        "title": "Making an starter for Hapi + TypeScript",
+        "detectedLanguage": "en",
+        "latestVersion": "142fca084a5a",
+        "latestPublishedVersion": "142fca084a5a",
+        "hasUnpublishedEdits": false,
+        "latestRev": 423,
+        "createdAt": 1499163305137,
+        "updatedAt": 1511249517709,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1499170477027,
+        "latestPublishedAt": 1499170660081,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle":
+                "The vast majority of our backends are currently been written in Node plus a combination with Express web framework.",
+            "postDisplay": { "coverless": true }
+        },
+        "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*UZMLVpg6-eq9kK8dlbpK1g.png",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 355,
+                "originalHeight": 247,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 479,
+            "imageCount": 1,
+            "readingTime": 2.0075471698113208,
+            "subtitle":
+                "The vast majority of our backends are currently been written in Node plus a combination with Express web framework.",
+            "usersBySocialRecommends": [],
+            "recommends": 2,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "javascript",
+                    "name": "JavaScript",
+                    "postCount": 55151,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 41146,
+                        "postCount": 55151,
+                        "coverImage": {
+                            "id": "1*2VqxkdyNCmWa8ojZZIoQOg.jpeg",
+                            "originalWidth": 1019,
+                            "originalHeight": 354
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "typescript",
+                    "name": "Typescript",
+                    "postCount": 1806,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 2196,
+                        "postCount": 1806,
+                        "coverImage": {
+                            "id": "1*z5Lx8JK4KFGWxcfezikoKw.png",
+                            "originalWidth": 1360,
+                            "originalHeight": 1030
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "hapi",
+                    "name": "Hapi",
+                    "postCount": 68,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 57,
+                        "postCount": 68,
+                        "coverImage": {
+                            "id": "1*cnxWQ0-aROOCuLBGcqunZA.png",
+                            "originalWidth": 2300,
+                            "originalHeight": 1770
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "hapijs",
+                    "name": "Hapijs",
+                    "postCount": 31,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 10,
+                        "postCount": 31,
+                        "coverImage": {
+                            "id": "1*cnxWQ0-aROOCuLBGcqunZA.png",
+                            "originalWidth": 2300,
+                            "originalHeight": 1770
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "node",
+                    "name": "Node",
+                    "postCount": 2511,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 472,
+                        "postCount": 2511,
+                        "coverImage": {
+                            "id": "1*soQHfOEF7G9FGZgqy5vZzQ.png",
+                            "originalWidth": 784,
+                            "originalHeight": 638
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+                "entries": [
+                    {
+                        "url": "http://expressjs.com/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url": "https://hapijs.com/",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url":
+                            "https://github.com/BlackBoxVision/typescript-hapi-starter",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url":
+                            "https://github.com/search?o=desc&q=hapi++typescript&s=stars&type=Repositories&utf8=%E2%9C%93",
+                        "alts": [],
+                        "httpStatus": 200
+                    },
+                    {
+                        "url":
+                            "https://github.com/nodejs/help/issues/53",
+                        "alts": [],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1499170796347
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 2,
+            "sectionCount": 1,
+            "readingList": 0
+        },
+        "coverless": true,
+        "slug": "making-an-starter-for-hapi-typescript",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": true,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug":
+            "making-an-starter-for-hapi-typescript-ce4c40568c2a",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "0116",
+                        "type": 4,
+                        "text": "",
+                        "markups": [],
+                        "layout": 9,
+                        "metadata": {
+                            "id": "1*UZMLVpg6-eq9kK8dlbpK1g.png",
+                            "originalWidth": 355,
+                            "originalHeight": 247
+                        }
+                    },
+                    {
+                        "name": "1267",
+                        "type": 3,
+                        "text":
+                            "Making an starter for Hapi + TypeScript",
+                        "markups": [],
+                        "alignment": 1
+                    },
+                    {
+                        "name": "0c9c",
+                        "type": 1,
+                        "text":
+                            "The vast majority of our backends are currently been written in Node plus a combination…",
+                        "markups": [],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [{ "startIndex": 0 }]
+            },
+            "isFullContent": false
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": true,
+        "isSponsored": false,
+        "isRequestToPubDisabled": false,
+        "notifyFacebook": false,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": false,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isNsfw": false,
+        "isEligibleForRevenue": false,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 0,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "type": "Post"
+    },
+    {
+        "id": "9d157cb75082",
+        "versionId": "9ab2f9b80018",
+        "creatorId": "c087cd1a9365",
+        "homeCollectionId": "",
+        "title":
+            "Using linkState in your React Components to simplify event handlers",
+        "detectedLanguage": "en",
+        "latestVersion": "9ab2f9b80018",
+        "latestPublishedVersion": "9ab2f9b80018",
+        "hasUnpublishedEdits": false,
+        "latestRev": 272,
+        "createdAt": 1486840651120,
+        "updatedAt": 1516268743760,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1486842851503,
+        "latestPublishedAt": 1486917924632,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle":
+                "Sometimes we tend to repeat tedious code that could be easily avoided by the usage of helper methods.",
+            "postDisplay": { "coverless": true }
+        },
+        "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*tPx7eWA0Mz7-j7c35an7DQ.png",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 900,
+                "originalHeight": 273,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 311,
+            "imageCount": 1,
+            "readingTime": 1.3735849056603773,
+            "subtitle":
+                "Sometimes we tend to repeat tedious code that could be easily avoided by the usage of helper methods.",
+            "usersBySocialRecommends": [],
+            "recommends": 3,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "react",
+                    "name": "React",
+                    "postCount": 12617,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 18065,
+                        "postCount": 12617,
+                        "coverImage": {
+                            "id": "1*_wZhhTstI_DCebB2fK2c5g.png",
+                            "originalWidth": 1099,
+                            "originalHeight": 478,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "javascript",
+                    "name": "JavaScript",
+                    "postCount": 55151,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 41146,
+                        "postCount": 55151,
+                        "coverImage": {
+                            "id": "1*2VqxkdyNCmWa8ojZZIoQOg.jpeg",
+                            "originalWidth": 1019,
+                            "originalHeight": 354
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 1,
+            "links": {
+                "entries": [],
+                "version": "0.3",
+                "generatedAt": 1486917924872
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 4,
+            "sectionCount": 1,
+            "readingList": 0
+        },
+        "coverless": true,
+        "slug":
+            "using-linkstate-in-your-react-components-to-simplify-event-handlers",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": true,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug":
+            "using-linkstate-in-your-react-components-to-simplify-event-handlers-9d157cb75082",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "a0e7",
+                        "type": 4,
+                        "text": "",
+                        "markups": [],
+                        "layout": 9,
+                        "metadata": {
+                            "id": "1*tPx7eWA0Mz7-j7c35an7DQ.png",
+                            "originalWidth": 900,
+                            "originalHeight": 273
+                        }
+                    },
+                    {
+                        "name": "fa2d",
+                        "type": 3,
+                        "text":
+                            "Using linkState in your React Components to simplify event handlers",
+                        "markups": [],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [{ "startIndex": 0 }]
+            },
+            "isFullContent": false
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": true,
+        "isSponsored": false,
+        "isRequestToPubDisabled": false,
+        "notifyFacebook": true,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": false,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isNsfw": false,
+        "isEligibleForRevenue": false,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 0,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "type": "Post"
+    },
+    {
+        "id": "74f758145fda",
+        "versionId": "4a8aedb6e9bd",
+        "creatorId": "c087cd1a9365",
+        "homeCollectionId": "",
+        "title":
+            "Why you should contribute to Open Source projects?",
+        "detectedLanguage": "en",
+        "latestVersion": "4a8aedb6e9bd",
+        "latestPublishedVersion": "4a8aedb6e9bd",
+        "hasUnpublishedEdits": false,
+        "latestRev": 476,
+        "createdAt": 1486305116351,
+        "updatedAt": 1511402263952,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1486317112144,
+        "latestPublishedAt": 1486317699613,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle":
+                "If you are a passionate Software Engineer/Developer, this post is for you. I’m gonna tell you my history with Open Source and why you…",
+            "postDisplay": { "coverless": true }
+        },
+        "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*MnJBb5qalimr1Ji7bKJctQ.jpeg",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 1024,
+                "originalHeight": 520,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 615,
+            "imageCount": 1,
+            "readingTime": 2.5207547169811324,
+            "subtitle":
+                "If you are a passionate Software Engineer/Developer, this post is for you. I’m gonna tell you my history with Open Source and why you…",
+            "usersBySocialRecommends": [],
+            "recommends": 1,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "open-source",
+                    "name": "Open Source",
+                    "postCount": 10617,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 6213,
+                        "postCount": 10617,
+                        "coverImage": {
+                            "id": "1*D8IMopmT21mzjdFx3zOzlA.jpeg",
+                            "originalWidth": 3000,
+                            "originalHeight": 2000
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "software-development",
+                    "name": "Software Development",
+                    "postCount": 32833,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 24178,
+                        "postCount": 32833,
+                        "coverImage": {
+                            "id": "1*KDah4xyJW5PtPuN6LOlFiQ.png",
+                            "originalWidth": 600,
+                            "originalHeight": 700
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "open-source-software",
+                    "name": "Open Source Software",
+                    "postCount": 143,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 16,
+                        "postCount": 143,
+                        "coverImage": {
+                            "id": "1*WPKkGpJyaDK5yA7nt6THFQ.jpeg",
+                            "originalWidth": 4419,
+                            "originalHeight": 2946
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "software-engineering",
+                    "name": "Software Engineering",
+                    "postCount": 4512,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 2499,
+                        "postCount": 4512,
+                        "coverImage": {
+                            "id": "1*0UaTvOBBJvAxkCOLiJLHzQ.jpeg",
+                            "originalWidth": 4460,
+                            "originalHeight": 2973
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 1,
+            "links": {
+                "entries": [],
+                "version": "0.3",
+                "generatedAt": 1486317699874
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 1,
+            "sectionCount": 1,
+            "readingList": 0
+        },
+        "coverless": true,
+        "slug": "why-you-should-contribute-to-open-source-projects",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": true,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug":
+            "why-you-should-contribute-to-open-source-projects-74f758145fda",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "78fc",
+                        "type": 4,
+                        "text": "",
+                        "markups": [],
+                        "layout": 9,
+                        "metadata": {
+                            "id": "1*MnJBb5qalimr1Ji7bKJctQ.jpeg",
+                            "originalWidth": 1024,
+                            "originalHeight": 520
+                        }
+                    },
+                    {
+                        "name": "c3a7",
+                        "type": 3,
+                        "text":
+                            "Why you should contribute to Open Source projects?",
+                        "markups": [],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [{ "startIndex": 0 }]
+            },
+            "isFullContent": false
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": true,
+        "isSponsored": false,
+        "isRequestToPubDisabled": false,
+        "notifyFacebook": true,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": false,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isNsfw": false,
+        "isEligibleForRevenue": false,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 0,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "type": "Post"
+    },
+    {
+        "id": "273b3a3f491b",
+        "versionId": "6097d56ddeee",
+        "creatorId": "c087cd1a9365",
+        "homeCollectionId": "",
+        "title":
+            "Implementing MVP pattern on Android with MVP Helpers",
+        "detectedLanguage": "en",
+        "latestVersion": "6097d56ddeee",
+        "latestPublishedVersion": "6097d56ddeee",
+        "hasUnpublishedEdits": false,
+        "latestRev": 671,
+        "createdAt": 1486224354301,
+        "updatedAt": 1516062584576,
+        "acceptedAt": 0,
+        "firstPublishedAt": 1486244388132,
+        "latestPublishedAt": 1511567144282,
+        "vote": false,
+        "experimentalCss": "",
+        "displayAuthor": "",
+        "content": {
+            "subtitle":
+                "There are a lot of posts talking about how to correctly implement MVP pattern over Android. So why another one?",
+            "postDisplay": { "coverless": true }
+        },
+        "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+                "imageId": "1*gUwmufmaGMhOQ1E2fvLeyw.png",
+                "filter": "",
+                "backgroundSize": "",
+                "originalWidth": 800,
+                "originalHeight": 427,
+                "strategy": "resample",
+                "height": 0,
+                "width": 0
+            },
+            "wordCount": 1127,
+            "imageCount": 2,
+            "readingTime": 4.636163522012579,
+            "subtitle":
+                "There are a lot of posts talking about how to correctly implement MVP pattern over Android. So why another one?",
+            "usersBySocialRecommends": [],
+            "recommends": 5,
+            "isBookmarked": false,
+            "tags": [
+                {
+                    "slug": "android",
+                    "name": "Android",
+                    "postCount": 38498,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 19025,
+                        "postCount": 38498,
+                        "coverImage": {
+                            "id": "1*QDPoWyGOli-c24XXu3aP8A.jpeg",
+                            "originalWidth": 6000,
+                            "originalHeight": 4004,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "android-app-development",
+                    "name": "Android App Development",
+                    "postCount": 12679,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 13183,
+                        "postCount": 12679,
+                        "coverImage": {
+                            "id": "1*L1ZYl0sp0Jtbfn0IIRw12Q.jpeg",
+                            "originalWidth": 3885,
+                            "originalHeight": 2573,
+                            "isFeatured": true
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "mvp-pattern",
+                    "name": "Mvp Pattern",
+                    "postCount": 1,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 0,
+                        "postCount": 1,
+                        "coverImage": {
+                            "id": "1*gUwmufmaGMhOQ1E2fvLeyw.png",
+                            "originalWidth": 800,
+                            "originalHeight": 427
+                        }
+                    },
+                    "type": "Tag"
+                },
+                {
+                    "slug": "android-best-practices",
+                    "name": "Android Best Practices",
+                    "postCount": 3,
+                    "virtuals": { "isFollowing": false },
+                    "metadata": {
+                        "followerCount": 17,
+                        "postCount": 3,
+                        "coverImage": {
+                            "id": "1*gUwmufmaGMhOQ1E2fvLeyw.png",
+                            "originalWidth": 800,
+                            "originalHeight": 427
+                        }
+                    },
+                    "type": "Tag"
+                }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+                "entries": [
+                    {
+                        "url":
+                            "https://github.com/BlackBoxVision/mvp-helpers",
+                        "alts": [],
+                        "httpStatus": 200
+                    }
+                ],
+                "version": "0.3",
+                "generatedAt": 1511567144841
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 5,
+            "sectionCount": 2,
+            "readingList": 0
+        },
+        "coverless": true,
+        "slug":
+            "implementing-in-a-correct-way-mvp-pattern-on-android",
+        "translationSourcePostId": "",
+        "translationSourceCreatorId": "",
+        "isApprovedTranslation": false,
+        "inResponseToPostId": "",
+        "inResponseToRemovedAt": 0,
+        "isTitleSynthesized": true,
+        "allowResponses": true,
+        "importedUrl": "",
+        "importedPublishedAt": 0,
+        "visibility": 0,
+        "uniqueSlug":
+            "implementing-in-a-correct-way-mvp-pattern-on-android-273b3a3f491b",
+        "previewContent": {
+            "bodyModel": {
+                "paragraphs": [
+                    {
+                        "name": "39df",
+                        "type": 3,
+                        "text":
+                            "Implementing MVP pattern on Android with MVP Helpers",
+                        "markups": [],
+                        "alignment": 1
+                    },
+                    {
+                        "name": "04c7",
+                        "type": 1,
+                        "text":
+                            "There are a lot of posts talking about how to correctly implement MVP pattern over Android. So why another one?",
+                        "markups": [
+                            { "type": 1, "start": 66, "end": 69 },
+                            { "type": 1, "start": 83, "end": 90 },
+                            { "type": 1, "start": 92, "end": 111 }
+                        ],
+                        "alignment": 1
+                    },
+                    {
+                        "name": "496a",
+                        "type": 1,
+                        "text":
+                            "Well, I want to tell you my experience developing a library to simplify MVP implementation for those…",
+                        "markups": [
+                            { "type": 1, "start": 72, "end": 75 }
+                        ],
+                        "alignment": 1
+                    }
+                ],
+                "sections": [{ "startIndex": 0 }]
+            },
+            "isFullContent": false
+        },
+        "license": 0,
+        "inResponseToMediaResourceId": "",
+        "canonicalUrl": "",
+        "approvedHomeCollectionId": "",
+        "newsletterId": "",
+        "webCanonicalUrl": "",
+        "mediumUrl": "",
+        "migrationId": "",
+        "notifyFollowers": true,
+        "notifyTwitter": true,
+        "isSponsored": false,
+        "isRequestToPubDisabled": false,
+        "notifyFacebook": true,
+        "responseHiddenOnParentPostAt": 0,
+        "isSeries": false,
+        "isSubscriptionLocked": false,
+        "seriesLastAppendedAt": 0,
+        "audioVersionDurationSec": 0,
+        "sequenceId": "",
+        "isNsfw": false,
+        "isEligibleForRevenue": false,
+        "isBlockedFromHightower": false,
+        "deletedAt": 0,
+        "lockedPostSource": 0,
+        "hightowerMinimumGuaranteeStartsAt": 0,
+        "hightowerMinimumGuaranteeEndsAt": 0,
+        "featureLockRequestAcceptedAt": 0,
+        "type": "Post"
+    }
+]

@@ -5,6 +5,7 @@ import Switch from "react-router-dom/Switch";
 import HashRouter from "react-router-dom/HashRouter";
 
 import Index from "./pages/Index";
+import Blog from "./pages/Blog";
 import Layout from "./components/Layout";
 
 export default class App extends React.Component {
@@ -31,7 +32,7 @@ export default class App extends React.Component {
                         <Route
                             exact
                             path="/blog"
-                            render={props => <div>Blog</div>}
+                            render={props => <Blog {...props} />}
                         />
                     </Switch>
                 </Layout>
